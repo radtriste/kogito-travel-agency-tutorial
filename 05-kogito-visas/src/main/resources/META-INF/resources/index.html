@@ -48,7 +48,7 @@
 </div>
 </div>
 <script>
-    var graphql = __GRAPHQL_HTTP_ENDPOINT__+ "/graphql";
+    var graphql = __GRAPHQL_HTTP_ENDPOINT__+ "/graphiql";
 
     $(function () {
         $.ajaxSetup({
@@ -63,7 +63,7 @@
         if ("WebSocket" in window) {
 
            // Let us open a web socket
-           var ws = new WebSocket(__GRAPHQL_WS_ENDPOINT__+ "/graphql");
+           var ws = new WebSocket(__GRAPHQL_WS_ENDPOINT__+ "/graphiql");
 
            ws.onopen = function() {
 
