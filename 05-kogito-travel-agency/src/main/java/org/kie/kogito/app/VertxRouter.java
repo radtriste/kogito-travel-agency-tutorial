@@ -9,7 +9,7 @@ import io.vertx.core.Vertx;
 import io.vertx.core.http.HttpHeaders;
 import io.vertx.ext.web.RoutingContext;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
-
+import java.net.URL;
 import static io.vertx.core.http.HttpMethod.GET;
 import static java.nio.charset.StandardCharsets.UTF_8;
 
